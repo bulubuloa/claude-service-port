@@ -1,0 +1,5 @@
+{
+  "name": "claude-service-port",
+  "owner": { "name": "bulubuloa" },
+  "plugins": [{ "name": "service-port", "source": "./" }]
+}

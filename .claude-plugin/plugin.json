@@ -1,0 +1,19 @@
+{
+  "name": "service-port",
+  "version": "0.1.0",
+  "description": "Skills, guard hooks and scripts for porting a service 1:1 to another runtime (e.g. Node to .NET) behind a recorded contract suite, and deploying it safely.",
+  "userConfig": {
+    "deployBranchPattern": {
+      "type": "string",
+      "title": "Deploy branch pattern",
+      "description": "Regular expression for branches whose push or PR deploys (e.g. ^publish-). Pushing or opening a PR to them needs explicit confirmation.",
+      "default": "^(publish-|deploy-|release/)"
+    },
+    "configEnvPrefix": {
+      "type": "string",
+      "title": "Config env prefix",
+      "description": "Prefix of environment variables that carry JSON config overrides (e.g. CFG_). Passing them through a shell is blocked.",
+      "default": "CFG_"
+    }
+  }
+}

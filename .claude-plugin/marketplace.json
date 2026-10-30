@@ -1,5 +1,13 @@
 {
   "name": "claude-service-port",
-  "owner": { "name": "bulubuloa" },
-  "plugins": [{ "name": "service-port", "source": "./" }]
+  "owner": {
+    "name": "bulubuloa"
+  },
+  "description": "Tools for porting a service 1:1 to another runtime behind a recorded contract suite, and deploying it safely.",
+  "plugins": [
+    {
+      "name": "service-port",
+      "source": "./"
+    }
+  ]
 }

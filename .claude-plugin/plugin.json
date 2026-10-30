@@ -2,6 +2,20 @@
   "name": "service-port",
   "version": "0.1.0",
   "description": "Skills, guard hooks and scripts for porting a service 1:1 to another runtime (e.g. Node to .NET) behind a recorded contract suite, and deploying it safely.",
+  "author": {
+    "name": "bulubuloa"
+  },
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "repository": "https://github.com/bulubuloa/claude-service-port",
+  "keywords": [
+    "port",
+    "migration",
+    "contract-testing",
+    "deploy",
+    "dotnet",
+    "node"
+  ],
   "userConfig": {
     "deployBranchPattern": {
       "type": "string",
